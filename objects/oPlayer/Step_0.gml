@@ -10,7 +10,7 @@ Key_roll = keyboard_check(vk_shift);
 Key_parry = keyboard_check(ord("Q"));
 
 //vsp = vsp + grv;
-
+EnsurePhysics_Player();
 switch (state)
 {
 	case PLAYERSTATE.FREE: PlayerState_FREE(); break;

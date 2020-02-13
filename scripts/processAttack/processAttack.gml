@@ -10,7 +10,9 @@ if (sprite_index != argument0) //sAttack1
 //Use attaack hitbox & check for hits
 mask_index = argument1; //sAttack1HB
 var hitByAttackNow = ds_list_create(); //create a list of things we hit this frame
-var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false); 
+var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false);
+hits += instance_place_list(x,y,oEnemy2,hitByAttackNow,false);
+hits += instance_place_list(x,y,oEnemy3,hitByAttackNow,false);
 //if true will return ID from closest to furthest
 //just counts what it hits "hits"
 if (hits > 0)
@@ -45,4 +47,4 @@ if (hits > 0)
 
 //destroy the list this step
 ds_list_destroy(hitByAttackNow);
-mask_index = sPlayerStick;
+mask_index = sPlayerStick; //sPlayerStick

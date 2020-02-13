@@ -1,4 +1,6 @@
 // runs when the object is crated
+//show_debug_message("message");
+//debug_even("message")
 hsp = 0; //horizontal speed
 vsp = 0;  // Vertial speed
 grv = 0.3; //Gravity (unquie built in variable)
@@ -6,6 +8,7 @@ walksp = 4; // walk speed
 in_air = false;
 invincible = false;
 bounced = false;
+noCollision = false;
 
 
 state = PLAYERSTATE.FREE;

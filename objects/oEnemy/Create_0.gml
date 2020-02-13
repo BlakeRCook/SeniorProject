@@ -3,7 +3,11 @@
 hp = 5;
 flash = false;
 hitNow = false;
-
+hsp = 1;
+vsp = 0;
+detect_range = 200;
+grv = 0.3;
+sprint_speed = 0;
 firingdelay = 0;
 
 enum ENEMYSTATE //global variables, and constant

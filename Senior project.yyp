@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "1682ab1b-5d58-4c41-87c0-469caf0bdde8",
+            "Value": {
+                "id": "1685d007-2aeb-4aad-acc1-49038decc9cf",
+                "resourcePath": "scripts\\EnsurePhysics_Enemy\\EnsurePhysics_Enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "17024dbb-390a-4eb3-96ad-c78062a3f136",
+            "Value": {
+                "id": "9030458b-ca5b-409f-a956-349f95291550",
+                "resourcePath": "views\\17024dbb-390a-4eb3-96ad-c78062a3f136.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1817112f-52b6-4b58-a515-9e9b58e7659f",
             "Value": {
                 "id": "6d1738a7-01fd-4a1a-b24d-348f81e77cd7",
@@ -127,10 +143,26 @@
             }
         },
         {
+            "Key": "2b0362b4-9d94-496b-bd00-fdb6bfc21e0d",
+            "Value": {
+                "id": "cd6116b3-c31b-4cd9-aca3-a64cd6ad92ed",
+                "resourcePath": "objects\\oEnemy2\\oEnemy2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f0b5a77-b21f-4140-adbc-497e0bca9b44",
             "Value": {
                 "id": "ab11419d-9891-4fd6-aef6-1954ffc03363",
                 "resourcePath": "views\\2f0b5a77-b21f-4140-adbc-497e0bca9b44.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2fa53a65-863c-49c4-bd5f-cf3c89e9682c",
+            "Value": {
+                "id": "9954ea32-ea67-4074-a898-8a7982b1180b",
+                "resourcePath": "views\\2fa53a65-863c-49c4-bd5f-cf3c89e9682c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -239,6 +271,14 @@
             }
         },
         {
+            "Key": "49da827a-613c-451b-830d-a854dbcb0598",
+            "Value": {
+                "id": "83e74cf2-74ee-46fc-9d13-fc6fb184a561",
+                "resourcePath": "views\\49da827a-613c-451b-830d-a854dbcb0598.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49ec96a4-cb5b-4637-aca4-9d088cc8be55",
             "Value": {
                 "id": "880e9737-3db5-4e8a-89a5-b869f055a5d4",
@@ -279,10 +319,34 @@
             }
         },
         {
+            "Key": "51fc0d18-a19d-4685-b2e8-566123a09729",
+            "Value": {
+                "id": "197835f4-8278-492a-ba9e-bb2cd1fe1963",
+                "resourcePath": "sprites\\sEnemy2\\sEnemy2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "53a04223-5734-4dd0-aecc-bcd4f63fec94",
             "Value": {
                 "id": "bc8a34aa-a3ae-487d-8703-8083aa301dea",
                 "resourcePath": "views\\53a04223-5734-4dd0-aecc-bcd4f63fec94.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61d8978b-281c-4a6f-a022-aa41e9723cb6",
+            "Value": {
+                "id": "6a2e279b-4901-4514-b9d5-ab293397d3ee",
+                "resourcePath": "scripts\\EnsurePhysics_Enemy2\\EnsurePhysics_Enemy2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6e8335c9-28f2-4be7-9064-c299078f6b45",
+            "Value": {
+                "id": "44cf4acf-4bb6-4069-90ad-86d886fdd1ad",
+                "resourcePath": "views\\6e8335c9-28f2-4be7-9064-c299078f6b45.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -455,6 +519,14 @@
             }
         },
         {
+            "Key": "c6d18d57-bb20-4001-a650-d7eefe2daea5",
+            "Value": {
+                "id": "76c01484-3039-48eb-b9f8-280b9995caaa",
+                "resourcePath": "objects\\oEnemy3\\oEnemy3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c6d5af75-67a1-4259-b364-7d0ebd4e170d",
             "Value": {
                 "id": "189f186b-0e9c-422a-b547-ba28e5054bf2",
@@ -519,6 +591,22 @@
             }
         },
         {
+            "Key": "e9e2dde4-7fa1-4274-8273-39321e8f2158",
+            "Value": {
+                "id": "9527460f-27f9-4903-964e-2beb6970deeb",
+                "resourcePath": "sprites\\sEnemy2Hit\\sEnemy2Hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9f5fb29-90f1-4182-ab2b-748d5ce37686",
+            "Value": {
+                "id": "423c674e-ff23-4e1e-8c3b-214bf379a2b2",
+                "resourcePath": "sprites\\sEnemy3\\sEnemy3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f05fe086-1d6c-4a0c-8fc3-e5bfb99e6799",
             "Value": {
                 "id": "b63280bb-20d7-425b-82b0-9ed8f95c3a8f",
@@ -569,20 +657,22 @@
     ],
     "script_order": [
         "b10d225a-a90e-4a72-9c5a-5e9da99ae57a",
-        "3f21e335-59fa-4016-baef-5d80e0012f33",
-        "954a249f-c4de-4e4a-b0b1-4d3280dfadcc",
-        "f28750f3-ded9-4b6b-ab87-1a9034903002",
-        "8f32349f-5c7f-411c-bd19-801c656be8fd",
-        "3242d0b2-ff79-41b6-bd3f-359eefa88d49",
-        "18d5358d-a0d0-429d-812e-83b9c7efb819",
-        "906023c4-93ff-4e88-8afc-9baabae687dc",
         "3f5060e2-9d3f-4ee6-a0ea-33f0d6feddd8",
         "01d3854b-30b6-4bf9-8ec2-5fbbd2ee714b",
         "f05fe086-1d6c-4a0c-8fc3-e5bfb99e6799",
         "448f4865-301f-431b-9443-7ce0d8a9ec0d",
+        "1682ab1b-5d58-4c41-87c0-469caf0bdde8",
+        "61d8978b-281c-4a6f-a022-aa41e9723cb6",
         "af4600df-681a-4da4-a2a4-0135a393bd81",
         "115dd66c-f626-4e01-bbd0-3b26acee857a",
-        "81eb85a2-a3af-4ac9-a661-9f40625a730d"
+        "81eb85a2-a3af-4ac9-a661-9f40625a730d",
+        "3f21e335-59fa-4016-baef-5d80e0012f33",
+        "954a249f-c4de-4e4a-b0b1-4d3280dfadcc",
+        "8f32349f-5c7f-411c-bd19-801c656be8fd",
+        "f28750f3-ded9-4b6b-ab87-1a9034903002",
+        "3242d0b2-ff79-41b6-bd3f-359eefa88d49",
+        "18d5358d-a0d0-429d-812e-83b9c7efb819",
+        "906023c4-93ff-4e88-8afc-9baabae687dc"
     ],
     "tutorial": ""
 }

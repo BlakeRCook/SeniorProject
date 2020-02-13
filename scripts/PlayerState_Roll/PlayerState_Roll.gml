@@ -45,4 +45,4 @@ if (animation_end())
 	invincible = false;
 }
 /////////////////////////////////////////
-EnsurePhysics_Player();
+//EnsurePhysics_Player();

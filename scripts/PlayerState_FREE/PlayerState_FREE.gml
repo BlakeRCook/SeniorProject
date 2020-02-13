@@ -1,14 +1,16 @@
 
-EnsurePhysics_Player();
+//EnsurePhysics_Player();
 bounced = false;
+noCollision = false;
 //Animations
 //attack animations
 
-if (!place_meeting(x,y+1,oWall)) //dont really want to repeat code being carless for clarity
+if (!place_meeting(x,y+40,oWall)) //dont really want to repeat code being carless for clarity 40
 {
 	//in_air = true; ///
 	//no collision one pixle below us
 	sprite_index = sAirStick; //sPlayerAir
+	mask_index = sAirStick;
 	image_speed = 0; //how fast the animation happens. this is for jumping so dont animate
 	//this is a multipler on sprite. speed is in the sprite editor
 	image_index = 0;
@@ -18,11 +20,11 @@ if (!place_meeting(x,y+1,oWall)) //dont really want to repeat code being carless
 	image_speed = 1; //normal speed
 	if (hsp == 0){
 		sprite_index = sPlayerStick; //sPlayer
-		
+		mask_index = sPlayerStick;
 	} 
 	else {
 		sprite_index = sStickRun; //sPlayerRunning
-		
+		mask_index = sStickRun;
 	}
 }
 image_speed = 1;

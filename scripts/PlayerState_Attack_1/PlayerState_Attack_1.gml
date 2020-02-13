@@ -18,4 +18,4 @@ if (animation_end())
 	state = PLAYERSTATE.FREE;
 }
 /////////////////////////////////////////
-EnsurePhysics_Player();
+//EnsurePhysics_Player();

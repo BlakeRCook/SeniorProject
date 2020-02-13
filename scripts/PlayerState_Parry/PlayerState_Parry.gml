@@ -23,7 +23,7 @@ if (hits > 0)
 			with (hitID)
 			{
 				speed = -10;
-				
+				was_parried = true;
 			}
 		}
 	}
@@ -42,4 +42,4 @@ if (animation_end())
 	state = PLAYERSTATE.FREE;
 }
 /////////////////////////////////////////
-EnsurePhysics_Player();
+//EnsurePhysics_Player();

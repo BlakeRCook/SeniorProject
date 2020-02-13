@@ -8,7 +8,7 @@ if (invincible == false ){
 }
 
 //some action
-if(state != PLAYERSTATE.ROLL){
+if(state != PLAYERSTATE.ROLL){ //!!!!!!!!!!!!!! UPDATE LATER
 	invincible = true;
 	alarm[0] = 60; //runs at some rate set then activates alarm
 	alarm[1] = 1; //happens right away
