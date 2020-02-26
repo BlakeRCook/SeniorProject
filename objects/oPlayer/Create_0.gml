@@ -9,11 +9,14 @@ in_air = false;
 invincible = false;
 bounced = false;
 noCollision = false;
+jumphight = 0;
 
 
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create(); //nead to clear this at some point
 hitByParry = ds_list_create();
+
+yset = sprite_yoffset;
 
 enum PLAYERSTATE //global variables, and constant
 //can establish enum anywhere

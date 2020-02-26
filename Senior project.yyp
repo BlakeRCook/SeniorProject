@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0f262322-437e-4314-a262-7c739752ed8e",
+            "Value": {
+                "id": "ec28f03d-da71-4804-8f07-5415d4b26fcf",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "115dd66c-f626-4e01-bbd0-3b26acee857a",
             "Value": {
                 "id": "71d681ea-19a0-493d-b995-a1018b4da6d0",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "47e5e250-f142-40a8-819b-15e36f683538",
+            "Value": {
+                "id": "95fd48fc-f598-4aa3-91fc-982904cdd19b",
+                "resourcePath": "tilesets\\tTiles\\tTiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "49da827a-613c-451b-830d-a854dbcb0598",
             "Value": {
                 "id": "83e74cf2-74ee-46fc-9d13-fc6fb184a561",
@@ -332,6 +348,22 @@
                 "id": "bc8a34aa-a3ae-487d-8703-8083aa301dea",
                 "resourcePath": "views\\53a04223-5734-4dd0-aecc-bcd4f63fec94.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5855ac78-5d68-4147-87eb-f7e1aec78e45",
+            "Value": {
+                "id": "d108c386-1a75-4649-8644-4593afcbaf6c",
+                "resourcePath": "scripts\\PlayerState_FreeEX\\PlayerState_FreeEX.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5bbb21be-affe-41f6-8655-5e378757a17e",
+            "Value": {
+                "id": "a1ce00e7-2b1e-48dd-8030-6aa49aa15a5c",
+                "resourcePath": "sprites\\sTile\\sTile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,11 +487,11 @@
             }
         },
         {
-            "Key": "a602407c-4386-4bd5-ba00-132595fd64ec",
+            "Key": "9f3e09d6-764d-4356-b548-bc456aac2439",
             "Value": {
-                "id": "d0f9ec30-8ebf-40be-aba6-b19a3715ff18",
-                "resourcePath": "objects\\oSword\\oSword.yy",
-                "resourceType": "GMObject"
+                "id": "8a0cfee5-7bac-4e92-821b-75e41544c0fd",
+                "resourcePath": "scripts\\EnsurePhysics_PlayerEX\\EnsurePhysics_PlayerEX.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -567,14 +599,6 @@
             }
         },
         {
-            "Key": "db94a352-39b2-4ff3-935c-2668cd17983c",
-            "Value": {
-                "id": "dd51feb6-1e36-4712-a32d-7069448f2f05",
-                "resourcePath": "objects\\oSwing\\oSwing.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "df11e556-b1be-41bd-b3b3-06976cbe5b6a",
             "Value": {
                 "id": "da2f8bf6-3c8f-4c27-8a4f-e76d6d963bc0",
@@ -657,10 +681,12 @@
     ],
     "script_order": [
         "b10d225a-a90e-4a72-9c5a-5e9da99ae57a",
+        "5855ac78-5d68-4147-87eb-f7e1aec78e45",
         "3f5060e2-9d3f-4ee6-a0ea-33f0d6feddd8",
         "01d3854b-30b6-4bf9-8ec2-5fbbd2ee714b",
         "f05fe086-1d6c-4a0c-8fc3-e5bfb99e6799",
         "448f4865-301f-431b-9443-7ce0d8a9ec0d",
+        "9f3e09d6-764d-4356-b548-bc456aac2439",
         "1682ab1b-5d58-4c41-87c0-469caf0bdde8",
         "61d8978b-281c-4a6f-a022-aa41e9723cb6",
         "af4600df-681a-4da4-a2a4-0135a393bd81",

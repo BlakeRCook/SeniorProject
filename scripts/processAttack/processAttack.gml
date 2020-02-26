@@ -1,4 +1,5 @@
 //start of the attack
+image_speed = 1;
 if (sprite_index != argument0) //sAttack1
 {
 	sprite_index = argument0;

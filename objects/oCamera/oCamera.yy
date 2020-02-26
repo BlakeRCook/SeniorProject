@@ -1,28 +1,28 @@
 {
-    "id": "a602407c-4386-4bd5-ba00-132595fd64ec",
+    "id": "0f262322-437e-4314-a262-7c739752ed8e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSword",
+    "name": "oCamera",
     "eventList": [
         {
-            "id": "b2216a80-3220-449b-925c-a427195aeb4d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "a602407c-4386-4bd5-ba00-132595fd64ec"
-        },
-        {
-            "id": "174fe539-3632-4674-98da-f25575e8d9b1",
+            "id": "4292e817-084a-4b71-893b-590058478b97",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a602407c-4386-4bd5-ba00-132595fd64ec"
+            "m_owner": "0f262322-437e-4314-a262-7c739752ed8e"
+        },
+        {
+            "id": "77707478-b090-4093-9b26-d9d7a651be53",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "0f262322-437e-4314-a262-7c739752ed8e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b9f671db-fe1b-4380-975f-83063b4a7212",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -4,14 +4,14 @@ var move = key_right - key_left; //var is temperary only lasts one frame
 
 hsp = move * walksp; // 1 or 0 * walk speed. in this case 4 pixles movement
 
-vsp = vsp + grv;
+vsp = vsp + grv + jumphight;
 
 //check if on the floor
 if (place_meeting(x,y+1,oWall) && (key_jump) && (state != PLAYERSTATE.ATTACK_1))
 {
-	vsp = -8; //jump height
+	jumphight = -5; //jump height
 	
-}// -y means up . +y means down
+} // -y means up . +y means down
 
 //Horizontal Collision
 // before me commit to movment we need to predict
@@ -37,12 +37,12 @@ if (place_meeting(x, y+vsp, oWall)) //again returns 0 or 1
 	}
 	
 	vsp = 0; //no movment because its a collision.
-	
 }
 
 if (!place_meeting(x,y+1,oWall)) //dont really want to repeat code being carless for clarity
 {
 	in_air = true; ///
+	jumphight = 0;
 	
 } else //we are touching the floor
 {
@@ -55,5 +55,5 @@ if (!place_meeting(x,y+1,oWall)) //dont really want to repeat code being carless
 	}
 }
 
-
 y = y + vsp; //-y means up . +y means down
+

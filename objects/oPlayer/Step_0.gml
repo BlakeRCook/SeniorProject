@@ -10,10 +10,10 @@ Key_roll = keyboard_check(vk_shift);
 Key_parry = keyboard_check(ord("Q"));
 
 //vsp = vsp + grv;
-EnsurePhysics_Player();
+EnsurePhysics_PlayerEX();
 switch (state)
 {
-	case PLAYERSTATE.FREE: PlayerState_FREE(); break;
+	case PLAYERSTATE.FREE: PlayerState_FreeEX(); break;
 	case PLAYERSTATE.ATTACK_1: PlayerState_Attack_1(); break;
 	case PLAYERSTATE.ATTACK_2: PlayerState_Attack_2(); break;
 	case PLAYERSTATE.ATTACK_3: PlayerState_Attack_3(); break;
