@@ -6,9 +6,9 @@ hsp = move * walksp; // 1 or 0 * walk speed. in this case 4 pixles movement
 
 vsp = vsp + grv + jumphight;
 
+
 if(!place_meeting(x, y+vsp, oWall)){ //if not colliding then we in the air
 	in_air = true;
-	
 
 } else { // we collided verticaly
 	vsp = 0; //stop vertical movment
@@ -16,8 +16,8 @@ if(!place_meeting(x, y+vsp, oWall)){ //if not colliding then we in the air
 }
 
 if(in_air == true) { //open legs before landing
-	
-	if(place_meeting(x,y+yset+vsp,oWall)) && (state != PLAYERSTATE.DOWNAIR){ //if i collide with a gap of about 50
+
+	if(place_meeting(x+hsp,y+yset+vsp,oWall)) && (state != PLAYERSTATE.DOWNAIR){ //if i collide with a gap of about 50
 		sprite_index = sPlayerStick;
 		mask_index = sPlayerStick;
 		in_air = false;
@@ -34,7 +34,8 @@ if(in_air == true) { //open legs before landing
 
 y += vsp;
 
-if(place_meeting(x+hsp+(sign(hsp)*5),y,oWall)){
+if(place_meeting(x+hsp+(sign(hsp)*10),y,oWall)){ //5
+	//x -= sign(hsp);
 	hsp = 0;
 }
 x += hsp;

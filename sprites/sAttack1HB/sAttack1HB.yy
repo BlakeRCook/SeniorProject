@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 91,
-    "bbox_left": 0,
+    "bbox_bottom": 99,
+    "bbox_left": 29,
     "bbox_right": 89,
-    "bbox_top": 0,
+    "bbox_top": 54,
     "bboxmode": 0,
     "colkind": 0,
     "coltolerance": 0,
@@ -907,10 +907,10 @@
             "mvc": "1.0",
             "SpriteId": "df11e556-b1be-41bd-b3b3-06976cbe5b6a",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "default",
             "opacity": 100,
-            "visible": false
+            "visible": true
         }
     ],
     "origin": 4,

@@ -49,3 +49,4 @@ if (hits > 0)
 //destroy the list this step
 ds_list_destroy(hitByAttackNow);
 mask_index = sPlayerStick; //sPlayerStick
+bounced = false;

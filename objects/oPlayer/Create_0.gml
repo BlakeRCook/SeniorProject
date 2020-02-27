@@ -1,4 +1,4 @@
-// runs when the object is crated
+     // runs when the object is crated
 //show_debug_message("message");
 //debug_even("message")
 hsp = 0; //horizontal speed
@@ -10,6 +10,7 @@ invincible = false;
 bounced = false;
 noCollision = false;
 jumphight = 0;
+
 
 
 state = PLAYERSTATE.FREE;
