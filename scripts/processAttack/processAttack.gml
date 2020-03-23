@@ -40,7 +40,7 @@ if (hits > 0)
 				
 			}
 			if (bounced == true){
-				ds_list_clear(hitByAttack);
+				ds_list_clear(hitByAttack); // this breaking!!!!
 			}
 		}
 	}

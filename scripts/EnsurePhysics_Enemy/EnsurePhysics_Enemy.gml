@@ -26,5 +26,5 @@ if (place_meeting(x, y+vsp, oWall)) //again returns 0 or 1
 	vsp = 0; //no movment because its a collision.
 	
 }
-
+		
 y = y + vsp; //-y means up . +y means down

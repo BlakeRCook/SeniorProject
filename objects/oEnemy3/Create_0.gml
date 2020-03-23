@@ -5,8 +5,9 @@ flash = false;
 hitNow = false;
 hsp = 1;
 vsp = 0;
-detect_range = 200;
+detect_range = 100;
 sprint_speed = 0;
+jumpToken = false;
 
 grv = 0.3;
 

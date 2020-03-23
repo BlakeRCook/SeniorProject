@@ -1,13 +1,28 @@
 // This happens every frame of the game //middle click function to look at manual
-key_left = keyboard_check(ord("A")); //(checks to see what key is pressed) (boolean values of 1 or 0)
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space); //was some key pressed on this frame
-key_attack_forward = keyboard_check_pressed(vk_right);
-key_attack_down = keyboard_check_pressed(vk_down);
-key_attack_back = keyboard_check_pressed(vk_left);
-key_attack_up = keyboard_check_pressed(vk_up);
-Key_roll = keyboard_check(vk_shift);
-Key_parry = keyboard_check(ord("Q"));
+
+if (HasControl == true)
+{
+	key_left = keyboard_check(ord("A")); //(checks to see what key is pressed) (boolean values of 1 or 0)
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space); //was some key pressed on this frame
+	key_attack_forward = keyboard_check_pressed(vk_right);
+	key_attack_down = keyboard_check_pressed(vk_down);
+	key_attack_back = keyboard_check_pressed(vk_left);
+	key_attack_up = keyboard_check_pressed(vk_up);
+	Key_roll = keyboard_check(vk_shift);
+	Key_parry = keyboard_check(ord("Q"));
+} 
+else { //set everything to 0 for false value
+	key_left = 0;
+	key_right = 0;
+	key_jump = 0;
+	key_attack_forward = 0;
+	key_attack_down = 0;
+	key_attack_back = 0;
+	key_attack_up = 0;
+	Key_roll = 0;
+	Key_parry = 0;
+}
 
 //vsp = vsp + grv;
 EnsurePhysics_PlayerEX();

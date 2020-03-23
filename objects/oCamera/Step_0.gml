@@ -1,4 +1,4 @@
-
+ 
 //update destination
 if (instance_exists(follow)){
 	xTo = follow.x;

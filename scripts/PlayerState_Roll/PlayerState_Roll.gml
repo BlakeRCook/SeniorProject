@@ -1,6 +1,7 @@
 
 image_speed = 1;
 sprite_index = sRoll;
+mask_index = sRoll;
 var roll_distance = 5; //5
 invincible = true
 
@@ -41,6 +42,7 @@ if (image_xscale > 0){
 if (animation_end())
 {
 	sprite_index = sPlayerStick;
+	mask_index = sPlayerStick;
 	state = PLAYERSTATE.FREE;
 	invincible = false;
 }

@@ -1,6 +1,6 @@
- /// @description Insert description here
+  /// @description Insert description here
 // You can write your code in this editor
-EnsurePhysics_Enemy();
+EnsurePhysics_Enemy3();
 
 if (state == ENEMYSTATE.HIT){
 	//sprite_index = sEnemy2Hit;
@@ -19,28 +19,24 @@ if (state == ENEMYSTATE.DEAD) {
 	instance_destroy();
 }
 
-if (collision_rectangle(x+detect_range, y+detect_range, x-detect_range, y-detect_range,oPlayer,false,false))
+if (collision_rectangle(x-detect_range, y-detect_range, x+detect_range, y+(detect_range/2),oPlayer,false,false))
 {
-	if (x > oPlayer.x) && (hsp > 0){
-		image_xscale = image_xscale * -1;
-		//hsp += 1;
-		hsp *= -1;
-		//sprint_speed = -2;
-	}
-	if (x < oPlayer.x) && (hsp < 0){
-		image_xscale = image_xscale * -1;
-		//hsp -= 1;
-		hsp *= -1;
-		//sprint_speed = 2;
-	}
-	if (y-80 > oPlayer.y){
-		vsp += -1;
-	}
-	if (hsp > 0){
-		sprint_speed = 2;
-	} else {
-		sprint_speed = -2;
+	sprint_speed = sign(hsp) * 2;
+	if (y-80 > oPlayer.y) && (jumpToken  == false){
+		alarm[2] = 1;
+		vsp = -8;
 	}
 	
+	if ( x > oPlayer.x) && ( hsp == 1 ){
+		hsp = -1;
+	}
+	
+	if ( x < oPlayer.x) && ( hsp == -1 ){
+		hsp = 1;
+	}
+	
+} else {
+	sprint_speed = 0;
 }
+
 //vsp = 0;

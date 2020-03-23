@@ -10,7 +10,7 @@ invincible = false;
 bounced = false;
 noCollision = false;
 jumphight = 0;
-
+HasControl = true;
 
 
 state = PLAYERSTATE.FREE;
