@@ -14,6 +14,7 @@ var hitByAttackNow = ds_list_create(); //create a list of things we hit this fra
 var hits = instance_place_list(x,y,oEnemy,hitByAttackNow,false);
 hits += instance_place_list(x,y,oEnemy2,hitByAttackNow,false);
 hits += instance_place_list(x,y,oEnemy3,hitByAttackNow,false);
+hits += instance_place_list(x,y,oWspot,hitByAttackNow,false);
 //if true will return ID from closest to furthest
 //just counts what it hits "hits"
 if (hits > 0)
@@ -40,7 +41,7 @@ if (hits > 0)
 				
 			}
 			if (bounced == true){
-				ds_list_clear(hitByAttack); // this breaking!!!!
+				//ds_list_clear(hitByAttack); // this breaking!!!!
 			}
 		}
 	}

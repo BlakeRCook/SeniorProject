@@ -24,6 +24,10 @@ else { //set everything to 0 for false value
 	Key_parry = 0;
 }
 
+if(hp == 0){
+	SlideTransition(TRANS_MODE.RESTART);	
+}
+
 //vsp = vsp + grv;
 EnsurePhysics_PlayerEX();
 switch (state)
@@ -38,5 +42,5 @@ switch (state)
 	case PLAYERSTATE.UPAIR: PlayerState_UpAir(); break;
 	case PLAYERSTATE.ROLL: PlayerState_Roll(); break;
 	case PLAYERSTATE.PARRY: PlayerState_Parry(); break;
-	case PLAYERSTATE.HIT: PlayerHit(); break;
+	//case PLAYERSTATE.HIT: PlayerHit(); break;
 }

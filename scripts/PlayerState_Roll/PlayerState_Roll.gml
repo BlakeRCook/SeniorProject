@@ -4,7 +4,7 @@ sprite_index = sRoll;
 mask_index = sRoll;
 var roll_distance = 5; //5
 invincible = true
-
+HasControl = false;
 //Horizontal Collision
 // before me commit to movment we need to predict
 if (place_meeting(x+roll_distance, y, oWall))  //Right collision
@@ -45,6 +45,7 @@ if (animation_end())
 	mask_index = sPlayerStick;
 	state = PLAYERSTATE.FREE;
 	invincible = false;
+	HasControl = true;
 }
 /////////////////////////////////////////
 //EnsurePhysics_Player();

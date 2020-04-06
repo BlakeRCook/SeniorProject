@@ -1,5 +1,4 @@
 
+var _damage = argument0;
 
-
-/////////////////////////////////////////
-//EnsurePhysics_Player();
+oPlayer.hp -= _damage;

@@ -8,7 +8,8 @@ ds_list_clear(hitByAttack);
 //Use attaack hitbox & check for hits
 mask_index = sParryHB; //sAttack1HB
 var hitByParryNow = ds_list_create(); //create a list of things we hit this frame
-var hits = instance_place_list(x,y,oBullet,hitByParryNow,false); 
+var hits = instance_place_list(x,y,oBullet,hitByParryNow,false);
+hits += instance_place_list(x,y,oBullet2,hitByParryNow,false); 
 //if true will return ID from closest to furthest
 //just counts what it hits "hits"
 if (hits > 0)

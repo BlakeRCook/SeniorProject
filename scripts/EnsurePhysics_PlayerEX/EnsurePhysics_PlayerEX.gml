@@ -12,7 +12,7 @@ if(!place_meeting(x, y+vsp, oWall)){ //if not colliding then we in the air
 
 } else { // we collided verticaly
 	vsp = 0; //stop vertical movment
-	
+	speed = 0;
 }
 
 if(in_air == true) { //open legs before landing
@@ -21,7 +21,7 @@ if(in_air == true) { //open legs before landing
 		sprite_index = sPlayerStick;
 		mask_index = sPlayerStick;
 		in_air = false;
-		
+	
 		if(state == PLAYERSTATE.FORWARDAIR) || 
 		(state == PLAYERSTATE.DOWNAIR) || 
 		(state == PLAYERSTATE.UPAIR) ||
@@ -37,6 +37,7 @@ y += vsp;
 if(place_meeting(x+hsp+(sign(hsp)*10),y,oWall)){ //5
 	//x -= sign(hsp);
 	hsp = 0;
+	speed = 0;
 }
 x += hsp;
 
