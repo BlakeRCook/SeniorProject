@@ -19,5 +19,6 @@ percent = 1; // 1 = completely black , 0 = is completly clear
 target = room; // the room we are gunna be going to
 tX = 0;
 tY = 0;
+//doDamage = false;
 BossKilled = false;
 t = 0;

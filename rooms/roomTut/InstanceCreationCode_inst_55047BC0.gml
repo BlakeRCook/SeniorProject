@@ -1,6 +1,6 @@
-target = room1;
-tX = 90;
-tY = 958;
+target = room0;
+tX = 65;
+tY = 990;
 
 
 //target = room2;

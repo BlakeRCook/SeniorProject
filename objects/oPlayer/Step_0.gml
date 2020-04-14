@@ -40,7 +40,7 @@ switch (state)
 	case PLAYERSTATE.BACKAIR: PlayerState_BackAir(); break;
 	case PLAYERSTATE.DOWNAIR: PlayerState_DownAir(); break;
 	case PLAYERSTATE.UPAIR: PlayerState_UpAir(); break;
-	case PLAYERSTATE.ROLL: PlayerState_Roll(); break;
+	case PLAYERSTATE.ROLL: PlayerState_RollEX(); break;
 	case PLAYERSTATE.PARRY: PlayerState_Parry(); break;
 	//case PLAYERSTATE.HIT: PlayerHit(); break;
 }

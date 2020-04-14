@@ -11,7 +11,7 @@ bounced = false;
 noCollision = false;
 jumphight = 0;
 HasControl = true;
-hp = 3;
+hp = 6;
 
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create(); //nead to clear this at some point

@@ -21,4 +21,4 @@ if (BossKilled == true){
 
 }
 
-draw_text(50,50,string(oPlayer.hp));
+draw_text(50,50,"HP: " + string(oPlayer.hp));

@@ -15,7 +15,7 @@ if(!place_meeting(x, y+vsp, oWall)){ //if not colliding then we in the air
 	speed = 0;
 }
 
-if(in_air == true) { //open legs before landing
+if(in_air == true && state!= PLAYERSTATE.ROLL) { //open legs before landing
 
 	if(place_meeting(x+hsp,y+yset+vsp,oWall)) && (state != PLAYERSTATE.DOWNAIR){ //if i collide with a gap of about 50
 		sprite_index = sPlayerStick;

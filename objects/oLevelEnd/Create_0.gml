@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 //var TargetRoom, TargetX, TargetY;
+doDamage = false;

@@ -12,3 +12,7 @@ with (oPlayer)
 		//HasControl = true;
 	}
 }
+if(doDamage == true){
+	doDamage = false;
+	PlayerHit(1);
+}
