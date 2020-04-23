@@ -3,14 +3,14 @@
 EnsurePhysics_Enemy2();
 
 if (state == ENEMYSTATE.HIT){
-	sprite_index = sEnemy2Hit;
+	//sprite_index = sEnemy2Hit;
 	alarm[1] = 1; //happens right away
-	image_index = 0;
+	//image_index = 0;
 }
 
 if (state == ENEMYSTATE.IDLE){
-	sprite_index = sEnemy2;
-	image_index = 0;
+	//sprite_index = sEnemy2;
+	//image_index = 0;
 	flash = false;
 	
 }

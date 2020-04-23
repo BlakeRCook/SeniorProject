@@ -10,6 +10,7 @@ if (place_meeting(x+hsp, y, oWall)) //again returns 0 or 1
 		x = x + sign(hsp);
 	}
 	//hsp = 0; //no movment because its a collision.
+	
 	hsp *= -1;
 }
 

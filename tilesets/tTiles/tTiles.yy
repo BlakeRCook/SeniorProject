@@ -5,7 +5,7 @@
     "name": "tTiles",
     "auto_tile_sets": [
         {
-            "id": "e8aa24d8-92c2-4bf9-a3f1-35a58d4dc02f",
+            "id": "fe2c9289-e8f1-4d6a-9032-34b67b8d7177",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,

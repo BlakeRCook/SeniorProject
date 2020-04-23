@@ -1,15 +1,17 @@
- /// @description Insert description here
+  /// @description Insert description here
 // You can write your code in this editor
 EnsurePhysics_Enemy();
 
 if (state == ENEMYSTATE.HIT){
-	sprite_index = sEnemyHit;
-	image_index = 0;
+	//sprite_index = sEnemyHit;
+	//image_index = 0;
+	alarm[1] = 1;
 }
 
 if (state == ENEMYSTATE.IDLE){
-	sprite_index = sEnemy;
-	image_index = 0;
+	//sprite_index = sEnemy;
+	//image_index = 0;
+	flash = false
 	
 //	firingdelay = firingdelay - 1;
 //	if (firingdelay < 0){
@@ -39,4 +41,5 @@ if (collision_rectangle(x+detect_range, y+detect_range, x-detect_range, y-detect
 	if (x < oPlayer.x) && (hsp < 0){
 		hsp *= -1;
 	}
-}
+} 
+
