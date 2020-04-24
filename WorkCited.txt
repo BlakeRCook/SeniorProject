@@ -1,0 +1,9 @@
+Cheshire from https://jeevo.itch.io/ (beetle & worm sprites)
+
+Shaun Spalding 
+https://www.youtube.com/watch?v=izNXbMdu348&list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ&index=1
+(Tutorials & background images & Dirt tiles)
+
+Animation_end Script
+script courtesy of PixellatedPope & Minty Python from the GameMaker Subreddit discord
+https:/www.redit.com/r/gamemaker/wiki/discord
